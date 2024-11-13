@@ -8,11 +8,11 @@ This repository contains a Python script to monitor the usage of Tesla vehicles 
 - [Introduction](#introduction)
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
+- [Example Python Script](#example-python-script)
+- [Example JSON Output](#example-json-output-for-vehicle-1)
 
 ## Introduction
-This script allows you to monitor the usage of Tesla vehicles in your fleet. The usage data includes mileage, battery status, last trip distance, last trip duration, location, charge cycles, and maintenance due status.
+This script allows you to extract the usage of Tesla vehicles in your fleet. The usage data includes mileage, battery status, last trip distance, last trip duration, location, charge cycles, and maintenance due status. The output of the script will enable you to use the telemetry data to monitor the usage and the status of the vehicles in the fleet for purposes required by you or your business.
 
 ## Requirements
 - Python 3.6+
@@ -73,5 +73,4 @@ if __name__ == "__main__":
 "maintenance_due": false
 }
 
-'''
 
